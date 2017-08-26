@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BootController {
 
+    // spting boot mapping
     @RequestMapping("/springbootapp")
     public String dataPush()
     {
