@@ -26,6 +26,7 @@ public class BootControllerTest {
     @Test
     public void dataPush() throws Exception {
 
+
         String val=bootController.dataPush();
         Assert.assertEquals(val,"spring boot app");
     }
